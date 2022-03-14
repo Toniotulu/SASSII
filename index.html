@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildex - Una comunidad para naturalistas</title>
+    <meta name="description" content="La biodiversidad que existe en México es simplemente sorprendente. Por ello, te compartimos un listado con algunas de nuestras especies endémicas, es decir, que solo habitan aquí.">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    <meta name="keywords" content="especies, endemicas, México, Biodiversidad Mexicana, diversidad de especies ">
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logowild.svg" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="especies-endemicas.html">ESPECIES</a></li>
+                <li><a href="#">DISTRIBUCION</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>ESPECIES ENDÉMICAS </h1>
+            <p>
+                La biodiversidad que existe en México es simplemente sorprendente. Por ello, te compartimos un listado con algunas de nuestras especies endémicas, es decir, que solo habitan aquí.
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">EXPLORA</button>
+                <button class="btn-secundario" type ="submit">CONTÁCTANOS</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/shark-12.png" alt="caratula" width="30%" height="30%">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Gran parte de la amplia diversidad de especies de México</h2>
+                <p>
+                    está constituida por especies que sólo habitan en nuestro país. Algunas están restringidas a islas o las partes altas de las montañas, otras a ríos, lagos o lagunas, otras a cenotes o cuevas. Su distribución actual es producto de una larga historia. Algunas tuvieron distribuciones amplias en otros tiempos y ahora están restringidas.
+                </p>
+           
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Wildex &copy;Todos los derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
